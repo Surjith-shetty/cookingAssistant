@@ -113,4 +113,4 @@ Response:
 
 - CLIP scores are low by design (softmax over ~200 labels) — relative ranking matters, not absolute values.
 - The LLM used is `llama-3.3-70b-versatile` via the Groq API. Change the model in `backend/index.js` if needed.
-- No database, no streaming, fully local except for the OpenAI API call.
+- No database, no streaming, fully local except for API call.
